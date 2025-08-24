@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tailwind v4 theme tokens: Tastetrip palette */
+@theme {
+  /* Primary palette (per guide) */
+  --color-primary: #3B6AFF;
+  --color-primary-dark: #1E2A4A; /* navy */
+  --color-gradientPink: #F093FB;
+  --color-gradientBlue: #6FD6FF;
+  --color-lightBlue: #D6ECFF;
+  --color-navy: #1E2A4A;
+  --color-softPink: #FFB7D5;
+
+  /* Neutrals */
+  --color-ink-900: #1E2A4A; /* deep navy for headings */
+  --color-ink-700: #334155; /* slate-700 */
+  --color-ink-500: #64748b; /* slate-500 */
+  --color-ink-300: #cbd5e1; /* slate-300 */
+  --color-paper: #ffffff;
+
+  /* Feedback */
+  --color-success: #10b981; /* emerald-500 */
+  --color-warning: #f59e0b; /* amber-500 */
+  --color-danger: #ef4444;  /* red-500 */
+}
+
+/* Soft app background gradient (can be applied to a wrapper) */
+.app-gradient-bg {
+  background-image: linear-gradient(180deg, var(--color-gradientPink) 0%, var(--color-gradientBlue) 100%);
+}
+
+/* (rollback) Remove additional base/components to match earlier UI */

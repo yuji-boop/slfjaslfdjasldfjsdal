@@ -1,0 +1,9 @@
+{
+  "name": "Tastetrip",
+  "description": "내 취향을 완성하는 여행. 현지인의 리뷰와 GPT 추천으로 특별한 여행을 경험하세요.",
+  "requestFramePermissions": [],
+  "rollbackTag": {
+    "name": "rollback-20250824-1400",
+    "date": "2025-08-24"
+  }
+}
